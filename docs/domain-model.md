@@ -49,6 +49,7 @@ Representa uma conta financeira.
 | Atributo | Tipo |
 |---|---|
 | id | UUID |
+| userId | UUID |
 | name | String |
 | type | AccountType |
 | initialBalance | BigDecimal |
@@ -66,6 +67,7 @@ Representa uma categoria de receita ou despesa.
 | Atributo | Tipo |
 |---|---|
 | id | UUID |
+| userId | UUID |
 | name | String |
 | type | TransactionType |
 
@@ -120,6 +122,7 @@ Representa um investimento controlado manualmente.
 | Atributo | Tipo |
 |---|---|
 | id | UUID |
+| userId | UUID |
 | name | String |
 | initialAmount | BigDecimal |
 

@@ -4,8 +4,6 @@
 
 O BFinance é uma aplicação web de finanças pessoais destinada ao controle de contas, receitas, despesas, transferências e investimentos.
 
-O sistema será utilizado inicialmente por um único usuário, com registros financeiros manuais.
-
 ## 2. Requisitos funcionais
 
 ### RF-001 — Gerenciar contas
@@ -94,4 +92,3 @@ O sistema será utilizado inicialmente por um único usuário, com registros fin
 - Orçamentos e metas financeiras.
 - Transações recorrentes automáticas.
 - Relatórios financeiros avançados.
-- Cadastro público e gerenciamento de múltiplos usuários.
