@@ -51,9 +51,7 @@ Representa uma conta financeira.
 | id | UUID |
 | userId | UUID |
 | name | String |
-| type | AccountType |
 | initialBalance | BigDecimal |
-| archived | Boolean |
 
 **Regras:**
 - O saldo pode ser negativo.

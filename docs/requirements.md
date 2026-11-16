@@ -58,7 +58,6 @@ O BFinance é uma aplicação web de finanças pessoais destinada ao controle de
 
 ### Contas
 - **RN-001:** O saldo de uma conta pode ser negativo.
-- **RN-002:** Contas arquivadas mantêm seu histórico e não podem receber novas movimentações.
 
 ### Categorias
 - **RN-003:** Uma categoria deve pertencer ao tipo receita ou despesa.
