@@ -13,8 +13,13 @@ import java.util.UUID;
 @Service
 public class CreateAccountUseCase {
 
-    private AccountRepository accountRepository;
-    private CurrentUserProvider currentUserProvider;
+    private final AccountRepository accountRepository;
+    private final CurrentUserProvider currentUserProvider;
+
+    public CreateAccountUseCase(AccountRepository accountRepository, CurrentUserProvider currentUserProvider) {
+        this.accountRepository = accountRepository;
+        this.currentUserProvider = currentUserProvider;
+    }
 
     @Transactional
     public AccountResponse execute(CreateAccountCommand command){

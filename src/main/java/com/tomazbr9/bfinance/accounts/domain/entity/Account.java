@@ -20,7 +20,7 @@ public class Account {
         account.id = UUID.randomUUID();
         account.userId = userId;
         account.name = name;
-        account.initialBalance = initialBalance;
+        account.initialBalance = initialBalance != null ? initialBalance : BigDecimal.ZERO;
 
         return account;
     }

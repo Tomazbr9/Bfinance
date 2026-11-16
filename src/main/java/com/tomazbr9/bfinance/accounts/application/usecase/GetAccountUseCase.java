@@ -12,8 +12,13 @@ import java.util.UUID;
 @Service
 public class GetAccountUseCase {
 
-    private AccountRepository accountRepository;
-    private CurrentUserProvider currentUserProvider;
+    private final AccountRepository accountRepository;
+    private final CurrentUserProvider currentUserProvider;
+
+    public GetAccountUseCase(AccountRepository accountRepository, CurrentUserProvider currentUserProvider) {
+        this.accountRepository = accountRepository;
+        this.currentUserProvider = currentUserProvider;
+    }
 
     public AccountResponse execute(UUID accountId){
 
