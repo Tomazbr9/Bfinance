@@ -67,7 +67,7 @@ Representa uma categoria de receita ou despesa.
 | id | UUID |
 | userId | UUID |
 | name | String |
-| type | TransactionType |
+| parentId | UUID |
 
 **Regras:**
 - Uma categoria pertence a apenas um tipo.
